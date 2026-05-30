@@ -1,0 +1,18 @@
+{
+  "name": "mybatis-node",
+  "version": "1.0.0",
+  "description": "A ORM Library FOR NODEJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "HeYang",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "mysql2": "^3.22.4",
+    "typescript": "^6.0.3"
+  }
+}
