@@ -1,5 +1,5 @@
 import {QueryConditionT, QueryWrapperT} from "../../types/QueryWrapper.js";
-import {QUERY_WRAPPER_TYPE} from "./config/QueryWrapperType.js";
+import {QUERY_WRAPPER_TYPE} from "../../constants/index.js";
 
 class QueryWrapper<T> {
     private conditions: QueryConditionT<T>[] = [];
@@ -69,6 +69,13 @@ class QueryWrapper<T> {
             value
         })
 
+    }
+    /**
+     * @internal
+     * 仅供Mapper层内部使用，不要直接调用
+     */
+    getConditions(): QueryConditionT<T>[] {
+        return this.conditions;
     }
 
 }

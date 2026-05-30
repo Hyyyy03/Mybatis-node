@@ -1,5 +1,2 @@
-import * as QueryWrapperType from "./QueryWrapper.js"
-
-export {
-    QueryWrapperType
-}
+export * from "./DataBase.js"
+export * from "./QueryWrapper.js"

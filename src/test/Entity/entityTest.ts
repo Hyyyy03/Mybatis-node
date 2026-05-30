@@ -6,5 +6,4 @@ class EntityTest {
     age:number;
 }
 
-
-new QueryWrapper<EntityTest>().eq("userName","张三").eq("age",10)
+console.log("【】==>",new QueryWrapper<EntityTest>().eq("userName","张三").eq("age",10).getConditions())

@@ -1,4 +1,4 @@
-import {QUERY_WRAPPER_TYPE} from "../core/queryWrapper/config/QueryWrapperType.js";
+import {QUERY_WRAPPER_TYPE} from "../constants/queryWrapper/QueryWrapperType.js";
 
 export interface QueryConditionT<
     T,

@@ -1,6 +1,1 @@
-import * as BaseMapper from "./BaseMapper.js"
-
-export {
-    BaseMapper
-}
-
+export * from "./BaseMapper.js"
